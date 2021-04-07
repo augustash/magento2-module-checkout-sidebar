@@ -1,0 +1,23 @@
+{
+    "name": "augustash/module-checkout-sidebar",
+    "type": "magento2-module",
+    "description": "Improve the checkout sidebar experience on Magento 2 projects.",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "require": {
+        "magento/module-checkout": "*"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Augustash\\CheckoutSidebar\\": "src/"
+        },
+        "files": [
+            "src/registration.php"
+        ]
+    }
+}
